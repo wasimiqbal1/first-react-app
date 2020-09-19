@@ -18,13 +18,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Installing Node
+      - name: Installing Node.js 
         uses: actions/setup-node@v2-beta
         with:
           node-version: 12 
         
       - name: Github action for yarn
-        uses: Barales/actions-yarn@v2.1.0
+        uses: Borales/actions-yarn@v2.1.0
         with:
           # Yarn Commad 
             cmd: install # NPM/Yarn install
