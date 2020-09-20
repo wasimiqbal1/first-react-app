@@ -4,8 +4,9 @@ import './App.css';
 function App() {
     return ( <
         div >
-        Hello World first react app from Wasim <
-        /div>
+        <
+        h1 > Hello World first react app from Wasim < /h1> < /
+        div >
     );
 }
 
